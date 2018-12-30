@@ -20,7 +20,7 @@ Now add the required script parameters values to the TravisCI project's settings
 |------------------:|---------|:------------|
 | TELEGRAM_TOKEN    | 727757207:AABCd6hkska88cs88vds8v79dsv7ds98vd8 | The token used to authenticate with the Telegram bot. |
 | CHAT_ID           | 87547665 | The chat ID of the chat to send messages to. |
-| TELEGRAM_BRANCHES | ^(dev|master)$ | The branches for which apks should be built as a regex. |
+| TELEGRAM_BRANCHES | ^(dev\|master)$ | The branches for which apks should be built as a regex. |
 | GITHUB_URL        | https://github.com/markusressel/travis-telegram-bot | GitHub project url. |
 | TRAVIS_URL        | https://travis-ci.org/markusressel/KodeEditor | Travis project url. |
 

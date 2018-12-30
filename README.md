@@ -1,7 +1,7 @@
 # travis-telegram-bot
 A travis config that can be used to send Telegram messages on new builds
 
-![Telegram PR Message](/screenshots/Telegram PR Message.jpg)
+<img src="/screenshots/telegram_pr_message.jpg" alt="Telegram PR Message" width="270" height="585">
 
 # Usage
 To use this 

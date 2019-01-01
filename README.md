@@ -15,8 +15,8 @@ Now add the required script parameters values to the TravisCI project's settings
 
 ### Script Parameters
 
-| Name              | Required | Default | Example | Description |
-|------------------:|:--------:|:-------:|:------------|
+| Name              | Required | Default | Example    | Description |
+|------------------:|:--------:|:-------:|:-----------|-------------|
 | TELEGRAM_TOKEN    | yes      | none    | `727757207:AABCd6hkska88cs88vds8v79dsv7ds98vd8` | The token used to authenticate with the Telegram bot. |
 | CHAT_ID           | yes      | none    | `87547665` | The chat ID of the chat to send messages to. |
 | TELEGRAM_BRANCHES | yes      | none    | `^(dev\|master)$` | The branches for which apks should be built as a regex. |
